@@ -1,0 +1,93 @@
+.addbookmark{
+    background-color: rgb(59, 94, 94);
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+#addbtn{
+    background-color: rgb(147, 165, 165);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: rgb(59, 94, 94);
+    text-align: left;
+    padding:5px;
+    margin-top: 0%;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookmark-list{
+    width: auto;
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    font-size: 15px
+}
+.bookmark-list li{
+    background-color: rgb(233, 240, 240);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content:right
+}
+.bookmark-list li.favorite{
+    background-color: rgb(255, 255, 200);
+    border: 2px solid gold;
+}
+.bookmark-list li a{
+    color: rgb(36, 5, 173);
+    text-decoration: none;
+}
+
+.openbtn{
+    background-color: rgb(147, 165, 165);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.deletebtn{
+    background-color: rgb(255, 99, 71);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#mode{
+    background-color: rgb(147, 165, 165);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.dark-mode{
+    background-color: #121212;
+    color: white;
+}
+.favbtn{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: auto;
+}
